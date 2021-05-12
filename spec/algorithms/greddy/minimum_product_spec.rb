@@ -12,21 +12,21 @@ RSpec.describe "Minimum Product" do
     expect(result).to eq(-24)
   end
 
-  it "Return Sum from Maximize Array 2" do
-    arr = [9, 8, 8, 5]
-    k = 3
+  it "Return Product from Minimum Product 2" do
+    arr = [-1, 0]
+    size = arr.size
 
-    result = Algorithms::Greddy::MaximizeArray.new.run(arr, k)
+    result = Algorithms::Greddy::MinimumProduct.new.run(arr, size)
 
-    expect(result).to eq(20)
+    expect(result).to eq(-1)
   end
 
-  it "Return Sum from Maximize Array 3" do
-    arr = [-3, -2, -1, 5, 6]
-    k = 4
+  it "Return Product from Minimum Product 3" do
+    arr = [0, 0, 0]
+    size = arr.size
 
-    result = Algorithms::Greddy::MaximizeArray.new.run(arr, k)
+    result = Algorithms::Greddy::MinimumProduct.new.run(arr, size)
 
-    expect(result).to eq(15)
+    expect(result).to eq(0)
   end
 end
