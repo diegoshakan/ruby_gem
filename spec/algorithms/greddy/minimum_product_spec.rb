@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../../lib/ruby_gem/algorithms/greddy/minimum_product"
+require "ruby_gem/algorithms/greddy/minimum_product"
 
 RSpec.describe "Minimum Product" do
   it "Return Product from Minimum Product 1" do

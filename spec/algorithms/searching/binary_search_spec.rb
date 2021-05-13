@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../../lib/ruby_gem/algorithms/searching/binary_search"
+require 'ruby_gem/algorithms/searching/binary_search'
 
 RSpec.describe "Binary Search" do
   it "Return Product from Binary Search 1" do
