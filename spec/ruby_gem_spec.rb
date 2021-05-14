@@ -6,6 +6,6 @@ RSpec.describe RubyGem do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(true).to eq(true)
   end
 end

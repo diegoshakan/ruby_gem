@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../../lib/ruby_gem/algorithms/greddy/maximize_array"
+require "ruby_gem/algorithms/greddy/maximize_array"
 
 RSpec.describe "Maximize Array" do
   it "Return Sum from Maximize Array 1" do
