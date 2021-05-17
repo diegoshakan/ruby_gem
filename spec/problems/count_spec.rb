@@ -6,7 +6,7 @@ RSpec.describe "Count" do
   it 'upper chars' do
     string = "teste**98TESTE"
 
-    result = Algorithms::Problems::Count.new.run(string)
+    result = Problems::Count.new.run(string)
 
     expect(result[:upper]).to eq(5)
   end
@@ -14,7 +14,7 @@ RSpec.describe "Count" do
   it 'lower chars' do
     string = "teste**98TESTE"
 
-    result = Algorithms::Problems::Count.new.run(string)
+    result = Problems::Count.new.run(string)
 
     expect(result[:lower]).to eq(5)
   end
@@ -22,7 +22,7 @@ RSpec.describe "Count" do
   it 'number chars' do
     string = "teste**98TESTE"
 
-    result = Algorithms::Problems::Count.new.run(string)
+    result = Problems::Count.new.run(string)
 
     expect(result[:number]).to eq(2)
   end
@@ -30,7 +30,7 @@ RSpec.describe "Count" do
   it 'special chars' do
     string = "teste**98TESTE"
 
-    result = Algorithms::Problems::Count.new.run(string)
+    result = Problems::Count.new.run(string)
 
     expect(result[:special]).to eq(2)
   end
